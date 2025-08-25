@@ -1,0 +1,25 @@
+# ---------------------------------------
+# 프로젝트 .gitignore
+# ---------------------------------------
+# Python venv 무시
+.venv/
+venv/
+ENV/
+# 업로드된 사용자 파일 제외
+uploads/
+
+# Python 관련 캐시/아티팩트
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 가상환경
+venv/
+.env
+
+# IDE/OS 관련
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
